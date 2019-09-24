@@ -26,5 +26,12 @@ public class TestCalc {
 		int result=cal.substract(2,3);
 		assertEquals(-1,result);
 	}
+	
+	@Test
+	public void testDivide() {
+		Calculator cal=new Calculator();
+		int result=cal.divide(4,2);
+		assertEquals(2,result);
+	}
 
 }
