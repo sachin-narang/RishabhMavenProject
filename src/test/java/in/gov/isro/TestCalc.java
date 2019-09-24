@@ -35,9 +35,9 @@ public class TestCalc {
 	}
 	
 	@Test
-	public void testRevert1() {
+	public void testRevert2() {
 		Calculator cal=new Calculator();
-		int result=cal.revert1(4);
+		int result=cal.revert2(4);
 		assertEquals(-4,result);
 	}
 

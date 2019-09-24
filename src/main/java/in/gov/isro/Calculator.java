@@ -18,7 +18,7 @@ public class Calculator {
 		return x/y;
 	}
 	
-	public int revert1(int x){
+	public int revert2(int x){
 		return -x;
 	}
 }
